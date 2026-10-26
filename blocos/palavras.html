@@ -1,0 +1,68 @@
+<section class="blk-palavras" id="palavras">
+  <div class="wrap">
+    <div class="blk-palavras__cab" data-reveal>
+      <p class="blk-palavras__eyebrow">O que os pacientes escrevem</p>
+      <h2 class="blk-palavras__titulo">Quatro palavras que voltam nas 223 avaliações</h2>
+      <p class="blk-palavras__lead">Contamos as palavras que mais aparecem nas avaliações da clínica no Google. Nenhuma delas fala de pressa.</p>
+    </div>
+    <ol class="blk-palavras__lista">
+      <li class="blk-palavras__item" data-reveal style="--d:0ms">
+        <p class="blk-palavras__palavra">médico</p>
+        <p class="blk-palavras__conta"><span data-count="31">31</span> avaliações</p>
+        <blockquote class="blk-palavras__trecho">“Pela primeira vez ela se sentiu cuidada e bem atendida por um médico.”</blockquote>
+      </li>
+      <li class="blk-palavras__item" data-reveal style="--d:120ms">
+        <p class="blk-palavras__palavra">humana</p>
+        <p class="blk-palavras__conta"><span data-count="14">14</span> avaliações</p>
+        <blockquote class="blk-palavras__trecho">“O tratamento mais humanizado que já recebi.”</blockquote>
+      </li>
+      <li class="blk-palavras__item" data-reveal style="--d:240ms">
+        <p class="blk-palavras__palavra">atenção</p>
+        <p class="blk-palavras__conta"><span data-count="11">11</span> avaliações</p>
+        <blockquote class="blk-palavras__trecho">“Teve uma atenção que nunca encontrei antes.”</blockquote>
+      </li>
+      <li class="blk-palavras__item" data-reveal style="--d:360ms">
+        <p class="blk-palavras__palavra">vida</p>
+        <p class="blk-palavras__conta"><span data-count="10">10</span> avaliações</p>
+        <blockquote class="blk-palavras__trecho">“Eu só tenho a agradecer por esse encontro na vida.”</blockquote>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-palavras{padding-block:var(--sp-section)}
+.blk-palavras__cab{max-width:42rem;margin-bottom:var(--sp-5)}
+.blk-palavras__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-palavras__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-palavras__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-palavras__lista{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.blk-palavras__item{
+  display:grid;gap:var(--sp-1);padding-block:var(--sp-4);
+  border-top:1px solid color-mix(in srgb,var(--pulse) 45%,transparent);
+}
+.blk-palavras__item:last-child{border-bottom:1px solid color-mix(in srgb,var(--pulse) 45%,transparent)}
+.blk-palavras__palavra{
+  margin:0;font-family:var(--f-display);font-style:italic;font-weight:400;
+  font-size:clamp(3rem,13vw,6.5rem);line-height:.95;color:var(--brand);
+}
+.blk-palavras__conta{
+  margin:0;font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;
+  color:color-mix(in srgb,var(--ink) 60%,transparent);
+}
+.blk-palavras__trecho{
+  margin:var(--sp-2) 0 0;font-family:var(--f-display);font-size:1.25rem;line-height:1.4;
+  color:color-mix(in srgb,var(--ink) 85%,transparent);max-width:30rem;
+}
+@media (min-width:900px){
+  .blk-palavras__item{grid-template-columns:minmax(0,1.3fr) 10rem minmax(0,1fr);align-items:center;column-gap:var(--sp-4)}
+  .blk-palavras__trecho{margin:0}
+}
+</style>

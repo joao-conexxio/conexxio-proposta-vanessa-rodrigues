@@ -1,0 +1,220 @@
+{
+  "slug": "vanessa-rodrigues",
+  "negocio": {
+    "nome": "Clínica Dra. Vanessa Rodrigues",
+    "whatsapp": "5547999745808",
+    "telefone": "(47) 99974-5808",
+    "unidades": [
+      {
+        "bairro": "América · Joinville",
+        "endereco": "R. Timbó, 400, sala 201 – América, Joinville – SC, 89204-050",
+        "telefone": "(47) 99974-5808",
+        "horario": "Com hora marcada, pelo WhatsApp"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#6B5444",
+    "brand2": "#4F3D31",
+    "ink": "#2A2420",
+    "bg": "#F8F4EE",
+    "pulse": "#C29B62",
+    "radius": "2px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Jost",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Como funciona",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Avaliações",
+            "href": "#depoimentos"
+          },
+          {
+            "texto": "Dúvidas",
+            "href": "#faq"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Emagrecimento e saúde",
+        "h1": "Uma consulta que investiga antes de prescrever",
+        "lead": "A Dra. Vanessa Rodrigues olha o organismo inteiro, com exames, histórico e rotina, e monta o protocolo de emagrecimento e saúde de cada paciente. Depois, acompanha de perto.",
+        "cta": "Agendar consulta",
+        "ctaSecundario": "Ver como funciona",
+        "ctaSecundarioHref": "#como-funciona",
+        "selo": "5,0 no Google · 223 avaliações · ",
+        "cardTitulo": "Fale com a recepção",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Emagrecimento",
+          "Investigação completa",
+          "Exames",
+          "Protocolo individual",
+          "Acompanhamento",
+          "Manutenção"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "O jeito da clínica",
+        "texto": [
+          "Emagrecer quase nunca é só uma questão de força de vontade. Antes de qualquer receita, a consulta procura o porquê: o que os exames mostram, como você dorme, o que já tentou e não funcionou.",
+          "O protocolo nasce dessas respostas e é revisto a cada retorno, num espaço novo no bairro América, pensado para a consulta ter tempo."
+        ],
+        "imagem": "midia/recepcao.jpg",
+        "imagemAlt": "Recepção da Clínica Dra. Vanessa Rodrigues, com balcão de madeira, parede de pedra, luz quente e o logo da clínica ao fundo"
+      }
+    },
+    {
+      "custom": "blocos/palavras.html"
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como é o acompanhamento",
+        "lead": "Tratamento de emagrecimento é feito em etapas. A clínica conduz cada uma e fica por perto entre elas.",
+        "itens": [
+          {
+            "titulo": "Primeira conversa",
+            "texto": "Você chama a clínica no WhatsApp, conta o que procura e a recepção encontra o horário da sua consulta.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Consulta completa",
+            "texto": "A Dra. Vanessa ouve sua história com calma e pede os exames que faltam para entender o seu organismo, inclusive os que você talvez nunca tenha feito.",
+            "icone": "microscopio"
+          },
+          {
+            "titulo": "Protocolo do seu caso",
+            "texto": "Com os resultados, ela monta o plano: alimentação, atividade física e, quando indicado, medicação. Cada item com o motivo de estar ali.",
+            "icone": "nutricao"
+          },
+          {
+            "titulo": "Retornos e manutenção",
+            "texto": "Nos retornos o protocolo é ajustado à sua evolução. Entre uma consulta e outra, a equipe responde pelo WhatsApp.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Em palavras de quem se trata aqui",
+        "itens": [
+          {
+            "texto": "A consulta foi super completa e ela foi a única que realmente quis investigar a fundo o meu organismo, identificando pontos que outros profissionais ignoraram.",
+            "autor": "Vanessa C.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "A Dra. Vanessa é uma profissional atenciosa e objetiva em relação ao tratamento, é sincera e tira todas as dúvidas do paciente.",
+            "autor": "Taisa M.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "O que mais gosto de ir nela é que ela faz vários exames que nunca fiz na vida. Minha família toda já passou por ela.",
+            "autor": "Daniela L.",
+            "contexto": "Avaliação no Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Antes da primeira consulta",
+        "itens": [
+          {
+            "p": "Vou sair da consulta com remédio para emagrecer?",
+            "r": "Só se fizer sentido para o seu caso. A medicação é uma das ferramentas do protocolo, ao lado de alimentação e atividade física, e a indicação é decidida em consulta, depois de olhar seus exames."
+          },
+          {
+            "p": "Por que tantos exames?",
+            "r": "Porque o peso costuma ter mais de uma causa. Os exames mostram o que está acontecendo no organismo e evitam um protocolo feito no escuro."
+          },
+          {
+            "p": "Como eu marco?",
+            "r": "Pelo WhatsApp (47) 99974-5808. A recepção explica como é a primeira consulta e encontra o melhor horário."
+          },
+          {
+            "p": "Quais formas de pagamento a clínica aceita?",
+            "r": "Cartão de crédito, cartão de débito e pagamento por aproximação no celular."
+          },
+          {
+            "p": "A clínica tem acessibilidade?",
+            "r": "Sim. A entrada e o estacionamento são acessíveis para pessoas em cadeira de rodas."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "No bairro América, na Rua Timbó",
+        "imagem": "midia/fachada.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece por uma conversa",
+        "lead": "Conte pelo WhatsApp o que você procura. A recepção marca a sua consulta com a Dra. Vanessa.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          {
+            "texto": "Como funciona",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          },
+          {
+            "texto": "Abrir no Maps",
+            "href": "https://www.google.com/maps/search/?api=1&query=Cl%C3%ADnica%20Dra.%20Vanessa%20Rodrigues%20Joinville"
+          }
+        ],
+        "aviso": "Clínica Dra. Vanessa Rodrigues · Joinville – SC. Resultados variam de paciente para paciente; a indicação de cada tratamento é feita em consulta."
+      }
+    }
+  ]
+}
